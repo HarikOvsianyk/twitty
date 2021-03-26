@@ -10,7 +10,7 @@ const Header = styled.div`
         font-size: 26px;
         color: ${props => props.colored ? 'red' : 'black'};
         :hover {
-            color: blue;
+            color: yellow;
         }
     }
     h2 {
@@ -22,7 +22,7 @@ const Header = styled.div`
 const AppHeader = ({liked, allPosts}) => {
     return (
         <Header>
-            <h1>Harik Ovsyanik</h1>
+            <h1>Twitty</h1>
             <h2>{allPosts} записей, из них понравилось {liked}</h2>
         </Header>
     )
